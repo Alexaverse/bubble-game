@@ -6,7 +6,7 @@ for(var i = 1;i<=234;i++){
 document.querySelector("#pbot").innerHTML=clutter;
 }
 function runTimer(){
-    var timer=4;
+    var timer=60;
     var time = setInterval(function(){
         if(timer>0){
             timer--;
